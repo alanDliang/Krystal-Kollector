@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+}
+
+h1 {
+    color: red;
+    width: 500px;
+    height: 50px;
+    background-color: greenyellow;
+    text-align: center;
+    font-family: serif;
+    font-size: 28px;
+}
+
+.rules {
+    width: 500px;
+    background-color: #AC7DED;
+    font-size: 20px;
+}
+

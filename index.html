@@ -2,10 +2,64 @@
 <html>
 <head>
 	<title>
-		
+		Crystals Guessing Game.
 	</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+
+	<div id = "container">
+		<div class="head">
+			<h1>Crystals Collector</h1>
+		</div>
+
+		<div class="rules">
+			<p>
+				You will be given a random number at the start of the game.
+			</p>
+			<p>
+				There are four cyrstals below. By clicking ona crystal you will add a specific amount of points to your total score.
+			</p>
+			<p>
+				You will win the game by matching your total score to a random number, you lose tje game if your total score goes above the random number.
+			</p>
+			<p>
+				The value of each crystal is hidden from you until you click on it.
+			</p>
+			<p>
+				Each time when the game starts, the game will change the value of each crystal.
+			</p>
+		</div>
+
+		 <h1>Crystal Target Number: <span id="targetguess"></span></h1>
+			
+		
+		<div id="winloss">
+				<div>Wins:<span id="wins"></span></div> 
+				<div>Losses:<span id="loss"></span></div>
+			
+		</div>
+
+		<div>
+
+		</div>
+
+		<div id ="crystals">
+		<img src="assets/images/1.png" id="crystal1" height="200px" width="200px">
+		<img src="assets/images/2.png" id="crystal2" height="200px" width="200px">
+		<img src="assets/images/3.png" id="crystal3" height="200px" width="200px">
+		<img src="assets/images/4.png" id="crystal4" height="200px" width="200px">
+
+			
+		</div>
+
+		<div>
+			<h1>Current Crystal Number: <span id="current"></span></h1>
+		</div>
+	</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
